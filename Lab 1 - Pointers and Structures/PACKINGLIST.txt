@@ -1,0 +1,19 @@
+
+ makenums.c
+ rdchrbychr.c
+ readtextv3.c
+ readtextv2.c
+ readnumsv1.c
+ readnumsv2.c
+ readnumsv3.c
+ readnumsv4.c
+ readnumsv5.c
+ readtextv1.c
+ WALKPTRN.C
+ textfile.txt
+ textfile1.txt
+ textfile2.txt
+ textfile4.txt
+ numdataforv5.txt
+ nums.txt
+ simple.txt

@@ -1,0 +1,35 @@
+all:	rdchrbychr.exe \
+		readnumsv1.exe \
+		readnumsv2.exe \
+		readnumsv3.exe \
+		readnumsv4.exe \
+		readnumsv5.exe \
+		readtextv1.exe \
+		readtextv2.exe \
+		readtextv3.exe
+
+clean:
+		del *.obj
+		del *.exe
+		del *.bak
+
+stamp:
+		annotate	*.c
+
+rdchrbychr.exe:	rdchrbychr.c
+
+readnumsv1.exe:	readnumsv1.c
+
+readnumsv2.exe:	readnumsv2.c
+
+readnumsv3.exe:	readnumsv3.c
+
+readnumsv4.exe:	readnumsv4.c
+
+readnumsv5.exe:	readnumsv5.c
+
+readtextv1.exe:	readtextv1.c
+
+readtextv2.exe:	readtextv2.c
+
+readtextv3.exe:	readtextv3.c
